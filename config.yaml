@@ -47,7 +47,7 @@ outputs:
     - JSON
 
 # Enable global emoji support
-enableEmoji: true
+enableEmoji: false
 
 # Site parameters
 params:
@@ -62,7 +62,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/ikech4n/blog
+  gitRepo: https://github.com/ikech4n/i5n.dev
   # Default branch of your Git repo
   gitBranch: main
 
@@ -74,17 +74,17 @@ params:
   features:
 
     # Enable dark theme
-    darkMode:
-      enable: true
-      services:
-        darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
-          fixes:
-            invert: ['img[src$=".svg"]'] # inverts svg colors.
-          theme:
-            brightness: 100
-            contrast: 100
-            sepia: 0
+    # darkMode:
+    #   enable: true
+    #   services:
+    #     darkreader:
+    #       defaultColorScheme: system # options are 'system', 'dark', 'light'
+    #       # fixes:
+    #       #   invert: ['img[src$=".svg"]'] # inverts svg colors.
+    #       theme:
+    #         brightness: 100
+    #         contrast: 100
+    #         sepia: 0
 
     # Enable and configure portfolio
     portfolio:

@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "CentOS、Rocky Linux、Ubuntuを主に使用しています。 bash/shell スクリプトを書くことができます。"
+  
+- name: Cloudflare
+  logo: /images/sections/skills/cloudflare.png
+  summary: "Cloudflare Worker、CDN、WAF等を使用してサービスを構築、運用した実績があります。"
+
+- name: Zabbix
+  logo: /images/sections/skills/zabbix.png
+  summary: "要件にあったテンプレートを作成することが可能です。"
+  url: "https://www.zabbix.com/jp"
+
+- name: Ansible
+  logo: /images/sections/skills/ansible.png
+  summary: "インフラのコード化によりサーバーの自動構築を行った実績があります。"
+  url: "https://www.ansible.com/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Dokcer-composeでのサービス運用実績があります。"
+  url: "https://www.docker.com/"
+
+- name: Go Development
+  logo: /images/sections/skills/go.png
+  summary: "現在勉強中です。"
+  url: "https://golang.org/"

@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: web系自社開発企業
+    # company overview
+    overview: 求人サイトを開発
+  positions:
+  - designation: バックエンドエンジニア
+    start: 2018年4月
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: 2019年6月
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - LAMP環境での開発経験。
+    - 仕様書の作成、DBの設計経験。
+
+- company:
+    name: web系自社開発企業(同社)
+    overview: サーバー、ネットワーク等を構築
+  positions:
+  - designation: インフラエンジニア
+    start: 2019年6月
+    # end: Oct 2019
+    responsibilities:
+    - データセンターでのサーバー、ネットワーク機器の運用経験
+    - Ansibleでのインフラコード化
+    - AWSでの外部監視システムの構築経験
+    - Apache、Nginx、MySQL等のミドルウェアの構築経験
+    - Active Directoryの構築、運用経験
